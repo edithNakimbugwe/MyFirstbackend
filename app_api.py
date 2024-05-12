@@ -37,7 +37,7 @@ def predict():
      # Determine diagnostic outcome
     results = predictions[0]
     if results == 0:
-        diagnostic_outcome = 'Negative'
+        diagnostic_outcome = 'Person is Negative'
     elif results == 1:
         diagnostic_outcome = 'Person is at high risk of attaining liver disease'
     elif results == 2:
